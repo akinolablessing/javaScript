@@ -12,12 +12,21 @@ console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 let personName = {
   firstName: "Akinyemi",
   secondName: "Blessing",
- 
+  age : 25,
 }
-//for(const namePerson in personName)
+function person(personName){
+	console.log(personName)
+}
+(person(personName))
+console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+
+
 console.log(personName.firstName+ "  "+personName.secondName)
 console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
+const book = {title: "The Great Gatsby",author:"F.Scott Fitzgerald",yearPublished:1925}
+console.log(book["title"]+" "+" by"+" "+book["author"])
+console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 function createObject() {
     let object = {
         "make": "Toyota",
