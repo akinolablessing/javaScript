@@ -5,5 +5,20 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "name": "javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinolablessing/javaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akinolablessing/javaScript/issues"
+  },
+  "homepage": "https://github.com/akinolablessing/javaScript#readme",
+  "description": ""
 }
