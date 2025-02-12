@@ -17,4 +17,11 @@ function secondCourse(courses){
 function addresses(address){
    return address;
 }
-module.exports = {studentName,studentAge, secondCourse, addresses};
+function addGpa(studentGpa){
+   return studentGpa;
+}
+// function getDetails(details){
+//     return details;
+    
+// }
+module.exports = {studentName,studentAge, secondCourse, addresses,addGpa};
